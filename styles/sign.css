@@ -14,17 +14,21 @@
     font-family: lato;
 }
 
-@font-face {
-    src: url(../fonts/roboto.ttf);
-    font-family: roboto;
-}
-
-@font-face {
-    src: url(../fonts/sourcesans.ttf);
-    font-family: sourcesans;
-}
-
 /*sign*/
+
+header a {
+    background-color:rgb(236, 228, 244);
+}
+
+header a:hover {
+    background-color: rgb(236, 228, 244);
+}
+
+#logo {
+    margin: 30px;
+    width: 80px;
+    height: 30px;
+}
 
 .sign {
     width: 600px;

@@ -9,23 +9,13 @@
 /* fonts */
 
 @font-face {
-    src: url(../fonts/poppins.ttf);
-    font-family: poppins; 
+    src: url(../fonts/kaushan.ttf);
+    font-family: kaushan;
 }
 
 @font-face {
     src: url(../fonts/lato.ttf);
     font-family: lato;
-}
-
-@font-face {
-    src: url(../fonts/roboto.ttf);
-    font-family: roboto;
-}
-
-@font-face {
-    src: url(../fonts/sourcesans.ttf);
-    font-family: sourcesans;
 }
 
 /*section-1, header*/
@@ -163,11 +153,12 @@ a:hover {
 }
 
 h1 {
+    font-family: kaushan;
     text-align: center;
     font-size: 64px;
     font-weight: 900;
     color: #ecd345;
-    font-family: lato;
+    letter-spacing: 7px;
 }
 
 .big-title {
@@ -980,6 +971,11 @@ h6 {
     .slogan {
         font-size: 34px;
     }
+    .company-div:hover, .mission-div:hover {
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -1033,5 +1029,10 @@ h6 {
 
     .prev, .next {
         display: none;
+    }
+    .company-div:hover, .mission-div:hover {
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
     }
 }

@@ -9,13 +9,8 @@
 /* fonts */
 
 @font-face {
-    src: url(../fonts/lato.ttf);
-    font-family: lato;
-}
-
-@font-face {
-    src: url(../fonts/roboto.ttf);
-    font-family: roboto;
+    src: url(../fonts/pacifico.ttf);
+    font-family: pacifico;
 }
 
 @font-face {
@@ -199,7 +194,9 @@ section {
 
 h1 {
     font-size: 48px;
-
+    font-family: pacifico;
+    font-weight: 500;
+    letter-spacing: 1.5px;
 }
 
 h2 {

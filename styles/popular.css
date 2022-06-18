@@ -9,18 +9,8 @@
 /* fonts */
 
 @font-face {
-    src: url(../fonts/lato.ttf);
-    font-family: lato;
-}
-
-@font-face {
     src: url(../fonts/roboto.ttf);
     font-family: roboto;
-}
-
-@font-face {
-    src: url(../fonts/sourcesans.ttf);
-    font-family: sourcesans;
 }
 
 /* header */
